@@ -2,11 +2,37 @@
   "name": "cold-objects",
   "version": "0.0.1",
   "description": "Helper React components for Three and R3F",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ColdShowerGames/cold-objects.git"
   },
   "author": "Bogdan-Alexandru Codreanu",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ColdShowerGames/cold-objects/issues"
+  },
+  "homepage": "https://github.com/ColdShowerGames/cold-objects#readme",
+  "dependencies": {
+    "react-three-fiber": "^5.3.22",
+    "three": "^0.126.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/three": "^0.126.2",
+    "typescript": "^4.2.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
