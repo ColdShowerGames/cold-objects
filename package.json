@@ -1,0 +1,12 @@
+{
+  "name": "cold-objects",
+  "version": "0.0.1",
+  "description": "Helper React components for Three and R3F",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColdShowerGames/cold-objects.git"
+  },
+  "author": "Bogdan-Alexandru Codreanu",
+  "license": "MIT"
+}
